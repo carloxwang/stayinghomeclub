@@ -6,7 +6,7 @@ This is the running list of what in tech has been affected by COVID-19. Pull req
 
 ---
 
-Jump to: <a href="/stayinghomeclub/companies.html">Companies</a>. Jump to: <a href="/stayinghomeclub/events.html">Events</a>. Jump to: <a href="/stayinghomeclub/universities.html">Universities</a>.
+Jump to: <a href="/stayinghomeclub/companies.html">Companies</a>. 
 
 ---
 
@@ -20,33 +20,3 @@ Jump to: <a href="/stayinghomeclub/companies.html">Companies</a>. Jump to: <a hr
 
 ### [See full list of companies](/stayinghomeclub/companies.html)
 
----
-
-<a name="events"></a>
-{% assign cancelled = site.data.events | where_exp:"item", "item.status contains 'cancelled'" | size %}
-
-## [Events - {{ site.data.events | size }}](/stayinghomeclub/events.html)
-
-*Events cancelled: **{{cancelled}}***
-
-### [See full list of events](/stayinghomeclub/events.html)
-
----
-
-<a name="universities"></a>
-
-## [Universities -- {{ site.data.universities | size }}](/stayinghomeclub/universities.html)
-
-{% assign statuses = "" | split: "" %}
-{% for university in site.data.universities %}
-    {% assign status = university[1].status | downcase %}
-    {% assign statuses = statuses | push: status %}
-{% endfor %}
-{% assign remote_count = statuses | where_exp:"status", "status contains 'remote'" | size %}
-*Universities moving to remote teaching: **{{remote_count}}***
-
-### [See full list of universities](/stayinghomeclub/universities.html)
-
----
-
-Jump to: <a href="/stayinghomeclub/companies.html">Companies</a>. Jump to: <a href="/stayinghomeclub/events.html">Events</a>. Jump to: <a href="/stayinghomeclub/universities.html">Universities</a>.
