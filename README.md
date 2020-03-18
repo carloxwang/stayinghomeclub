@@ -20,13 +20,13 @@ You will need a Github account.
 
 1. Make sure you're editing the main repository which hosts the
     website.  It is here on Github:
-    [`https://github.com/phildini/stayinghomeclub`](https://github.com/phildini/stayinghomeclub).
+    [`https://github.com/software-career/stayinghomeclub/`](https://github.com/software-career/stayinghomeclub/).
 
 1. You will need to create a YML file [in the `companies`
-   directory](https://github.com/phildini/stayinghomeclub/tree/master/_data/companies).
+   directory](https://github.com/software-career/stayinghomeclub/tree/master/_data/companies).
    Navigate there, and click the "Create new file" button.  Here's a
    [direct link to the Create
-   page](https://github.com/phildini/stayinghomeclub/new/master/_data/companies).
+   page](https://github.com/software-career/stayinghomeclub/new/master/_data/companies).
 
    Or, if you're just updating an existing entry, click on it, then
    hit the "Edit" button.
