@@ -7,6 +7,8 @@ journalist and would like to speak to someone about the list, email
 phildini@phildini.net.  View the live website here:
 [stayinghome.club](https://stayinghome.club).
 
+> 請注意，這是一個台灣的版本，只允許在台灣有設立辦公室的公司
+> 如果你要新增全球的版本請至： [`https://github.com/phildini/stayinghomeclub`](https://github.com/phildini/stayinghomeclub).
 
 ## How do I add my company?
 
