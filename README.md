@@ -9,7 +9,11 @@ phildini@phildini.net.  View the live website here:
 
 > 請注意，這是一個台灣的版本，只允許在台灣有設立辦公室的公司
 
+Do note that this is a Taiwanese version and we would only allow
+companies that have a valid Taiwanese office. 
+
 > 如果你要新增全球的版本請至： [`https://github.com/phildini/stayinghomeclub`](https://github.com/phildini/stayinghomeclub).
+You will find the global version at the following link： [`https://github.com/phildini/stayinghomeclub`](https://github.com/phildini/stayinghomeclub).
 
 ## How do I add my company?
 
