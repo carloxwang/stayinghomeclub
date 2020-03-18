@@ -2,7 +2,7 @@
 
 ---
 
-Go [Home](/).
+Go [Home](/stayinghomeclub/).
 
 ---
 
